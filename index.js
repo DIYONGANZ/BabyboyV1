@@ -1,14 +1,14 @@
 /*
-*A187ID
-*@_sadboy.ig
+*DIYON GAMENG
+*@us_projeck ig gw di folow ya kalo gak gw gak update lagi
 *Anda iri dengan Karya gua?
 *Sorry bae bos, gua ga peduli sama sekali!
 *Ga usah bacot di belakang saya yah bos!
 *Lu cowok kan? langsung chat aja,jngan modal bacot
 *Satu kata buat yg iri sama gua!
-*FUCK!
-*@_sadboy.ig
-*A187ID
+*JANGAN LUPA SUBSCRIBE CHANEL DIYON GAMENG KALO GAK SUBS GW GAK UPDATE
+*@us_projeck ig gw
+*DIYON GAMENG
 *BYEEE BAPERAN,SHE YOU XIXIXIXIXI
 */
 const fs = require('fs')
@@ -54,11 +54,11 @@ blocked = []
 limitawal = '30'
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
 + 'VERSION:3.0\n'
-+ 'FN:A187ID ID\n' // full name
-+ 'ORG:Owner A187ID;\n' // the organization of the contact
-+ 'TEL;type=CELL;type=VOICE;waid=6285722553839:+62 85722553839\n' // WhatsApp ID + phone number
++ 'FN:DIYON\n' // full name
++ 'ORG:Owner DIYON;\n' // the organization of the contact
++ 'TEL;type=CELL;type=VOICE;waid=6281361639422:+62 81361639422\n' // WhatsApp ID + phone number
 + 'END:VCARD'
-//A187
+//DIYON
 const getLevelingXp = (userId) => {
 let position = false
 Object.keys(_level).forEach((i) => {
@@ -306,7 +306,7 @@ const args = body.trim().split(/ +/).slice(1)
 const isCmd = body.startsWith(prefix)
 const tescuk = ["0@s.whatsapp.net"]
 const q = args.join(' ')
-//A187
+//DIYON
 mess = {
 wait: '⌛ Sedang di Prosess ⌛',
 success: 'Successful, thanks for using me🌹',
@@ -323,15 +323,15 @@ benned: '*[❗] You To The Band Please Contact The Owner To Open Your Band*',
 group: '*[❗] This command can only be used in groups!*',
 ownerG: '*[❗] This command can only be used by the owner group!*',
 ownerB: '*[❗] This command can only be used by the owner bot!*',
-daftarB: `── 「NOT REGISTERED」 ── \nHello sis! \nYou havent registered yet, lets register first ... \n\nCommand: ${prefix} register name|age \nExample: ${prefix} register A187|19`,
+daftarB: `── 「NOT REGISTERED」 ── \nHello sis! \nYou havent registered yet, lets register first ... \n\nCommand: ${prefix} register name|age \nExample: ${prefix} register DIYON|19`,
 }
 }
 const apakah = ['Ya','Tidak']
 const bisakah = ['Bisa','Tidak Bisa']
 const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 const botNumber = client.user.jid
-const ownerNumber = ["6285722553839@s.whatsapp.net"] // replace this with your number
-const nomorOwner = ["6285722553839@s.whatsapp.net"]
+const ownerNumber = ["6281361639422@s.whatsapp.net"] // replace this with your number
+const nomorOwner = ["6281361639422@s.whatsapp.net"]
 const isGroup = from.endsWith('@g.us')
 const totalchat = await client.chats.all()
 const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -353,11 +353,11 @@ const isEventon = isGroup ? event.includes(from) : false
 const isRegister = checkRegisteredUser(sender)
 pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
 
-//A187
-const botName = 'A187BOT'
-const ownerName = 'A187'
+//DIYON
+const botName = 'DIYON'
+const ownerName = 'DIYON'
 const BarBarKey = 'pJ6xKSMPCT8QMcvBzGFY'
-// Follow @_sadboy.ig 
+// Follow @us_projeck ig
 const isUrl = (url) => {
 return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 }
@@ -379,7 +379,7 @@ client.sendMessage(from, pesan, tipe, {quoted: { key: { fromMe: false, participa
 const sendPtt = (teks) => {
 client.sendMessage(from, audio, mp3, {quoted:mek})
 }
-// Follow @_sadboy.ig 
+// Follow @us_projeck ig 
 if (isGroup && isLevelingOn) {
 const currentLevel = getLevelingLevel(sender)
 const checkId = getLevelingId(sender)
@@ -397,7 +397,7 @@ await reply(`*「 LEVEL UP 」*\n\n➸ *Name*: ${sender}\n➸ *XP*: ${getLevelin
 console.error(err)
 }
 }
-// Follow @_sadboy.ig 
+// Follow @us_projeck
 const checkLimit = (sender) => {
 let found = false
 for (let lmt of _limit) {
@@ -415,7 +415,7 @@ fs.writeFileSync('./A187/limit.json', JSON.stringify(_limit))
 client.sendMessage(from, ind.limitcount(limitCounts), text, { quoted : mek})
 }
 }
-// Follow @_sadboy.ig 
+// Follow @us_projeck
 const isLimit = (sender) =>{
 let position = false
 for (let i of _limit) {
@@ -439,7 +439,7 @@ fs.writeFileSync('./A187/limit.json',JSON.stringify(_limit))
 return false
 }
 }
-// Follow @_sadboy.ig 
+// Follow @us_projeck
 if (isRegister && isGroup ) {
 const checkATM = checkATMuser(sender)
 try {
@@ -450,7 +450,7 @@ addKoinUser(sender, uangsaku)
 console.error(err)
 }
 }
-// Follow @_sadboy.ig 
+// Follow @us_projeck
 colors = ['red','white','black','blue','yellow','green']
 const isMedia = (type === 'imageMessage' || type === 'videoMessage')
 const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
